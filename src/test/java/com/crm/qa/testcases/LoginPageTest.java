@@ -22,7 +22,7 @@ public class LoginPageTest extends TestBase{
 		initialization();
 		loginPage = new LoginPage();	
 	}
-	
+	//Ajay Chuahan
 	@Test(priority=1)
 	public void loginPageTitleTest(){
 		String title = loginPage.validateLoginPageTitle();
